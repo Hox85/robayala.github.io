@@ -4,12 +4,12 @@ body {
 }
 
 .clear-fix:after {
-content: '';
-    display: block; 
-    clear:both;
+    content: '';
+    display: block;
+    clear: both;
 }
-header{
-}
+
+header {}
 
 header h1 {
     font-size: 2em;
@@ -40,17 +40,23 @@ header a {
 #landing h2 {
     color: #fff;
     font-size: 70px;
-    
 }
 
-#landing q {
+#landing q {}
+
+#square {
+    float:right;
+    padding-right: 450px;
     
+
+
+}
+#square2 {
+    background-image: url('http://www.siliconera.com/wordpress/wp-content/uploads/2014/09/20140905_062148_thumb.png');
+    float: left;
+
+
 }
 
-
-
-
-
-    
 
 }
